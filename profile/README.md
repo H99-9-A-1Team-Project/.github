@@ -4,6 +4,9 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 
 ## :house_with_garden: 소개 | About Us 
 
+
+<img width="960" alt="등대지기 오프닝 사진" src="https://user-images.githubusercontent.com/74133113/207536727-0c1afe94-a7ad-45e5-9b87-e4f953085424.png">
+
 ---
 
 ## :tada: 서비스 소개
@@ -25,29 +28,59 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 
 ### :briefcase: 인증된 공인중개사의 답변을 들을 수 있는 상담서비스 플랫폼입니다.
 
+
+### [등대지기 바로가기](www.lighthousefriend.com)
 ---
 
 ## 📜목차 
 
-### [전체 프로젝트 개발기간](#전체-프로젝트-개발기간)  
-### [주요 기능](#주요-기능)
-### [기술정보](#기술정보)
+1. ###  [전체 프로젝트 개발기간](#전체-프로젝트-개발기간)  
+2. ###  [아키텍쳐](#아키텍쳐)
+3. ###  [주요 기능](#주요-기능)
+4. ###  [기술정보](#기술정보)
+
 ---
 
 ## :calendar: 전체 프로젝트 개발기간  
 
-:pushpin: 2022. 11.04 ~ 2022. 12.15
+:pushpin: 2022. 11.04 ~ 2022. 12.15     
+
+---
+
+## :nut_and_bolt: 아키텍쳐
+
+![아키텍쳐](https://user-images.githubusercontent.com/74133113/207537598-b1cbcaa4-0fc3-4950-a62a-dc1c90836c28.png)    
+
+---
 
 ## :crossed_swords: 주요 기능   
-* 소셜로그인 (카카오톡 로그인)
 * 공인중개사와의 부동산 관련문서 해석 상담 요청 
-* 공인중개사와의 1:1 채팅 상담
 * 상담 내용에 있는 주소 정보를 카카오맵 마커로 시각화
 * 의뢰인의 상담 목록 조회 및 검색 기능
-* 상담에 대한 별점 만족도 작성 가능
+* 상담에 대한 만족도 표현 가능
 * 공인중개사 프로필 수정 (닉네임, 프로필 사진, 소개메세지)
 * 공인중개사가 상담했던 의뢰 목록을 마이페이지에서 무한스크롤로 조회 가능 
+* 관리자 계정 별도 운영 / 인증 메일 발송
 
+--------------------
+예시주소입니다. 실제와 무관함을 알려드립니다. 
+
+|1. 일반회원가입 및 동시로그인 |  2. 발품기록  |  3. 검색 및 목록조회  |
+|--------------------|------------|-------------------|
+|![일반회원가입 및 동시로그인](https://user-images.githubusercontent.com/74133113/207530793-a21dffb3-c839-4410-91da-ba00ece2ec72.gif)   |  ![발품기록](https://user-images.githubusercontent.com/74133113/207530972-14f27e04-029c-4f53-9ae6-4c63308764fb.gif) | ![검색및목록조회](https://user-images.githubusercontent.com/74133113/207531803-10b3676a-12e5-4f1b-85dc-ee4aeca7471a.gif) |
+|4. 상담신청  | 5. 캐로셀 및 목록 조회 | 6. 마커 클릭시 상세페이지 모달|
+|![상담신청](https://user-images.githubusercontent.com/74133113/207531011-8109109c-2501-4791-aa39-2c0c652ef831.gif)| ![캐로셀및목록조회](https://user-images.githubusercontent.com/74133113/207531355-2633f684-06c0-42c6-9bcd-3b992f12eab7.gif) | ![마커클릭시 상세페이지 모달](https://user-images.githubusercontent.com/74133113/207531387-d37334a3-43df-43b7-a6b1-c1a53351012d.gif)|
+|7. 공인중개사 회원가입 | 8. 인증되지 않은 접근 | 9. 관리자계정 승인과정|
+|![공인중개사회원가입](https://user-images.githubusercontent.com/74133113/207531423-30ad96ae-cd1f-4989-998e-93d88f4f10ee.gif)| ![인증되지 않은접근](https://user-images.githubusercontent.com/74133113/207531448-1eb9baa9-06f2-40c5-9019-654160dcb6d5.gif)|![관리자계정승인과정](https://user-images.githubusercontent.com/74133113/207531477-b3362c52-9b98-44e8-a3d2-e02ec2e90ca2.gif)|
+|10. 거부된 아이디 접근|11. 공인중개사 답변달기|12. 일반회원 답변확인
+|![거부된 아이디 접근](https://user-images.githubusercontent.com/74133113/207531513-b0b085bc-993a-4d77-846c-fd01f7020eb6.gif)|![공인중개사답변달기](https://user-images.githubusercontent.com/74133113/207531587-ac88c25a-ffc8-4985-8a1a-f13d5260bfa5.gif)|![일반회원답변확인](https://user-images.githubusercontent.com/74133113/207531603-52eb94c4-909b-4ecd-bb61-21537889ff4c.gif)|
+
+
+|13. 승인 메일 안내 |
+|------|
+|![승인메일안내](https://user-images.githubusercontent.com/74133113/207531543-fb2d7c22-eef1-408c-9a68-fc73c9dbbf14.gif)|
+
+----------------------
 
 ## :earth_asia: 기술정보
 
