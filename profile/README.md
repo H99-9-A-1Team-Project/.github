@@ -29,32 +29,33 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 ### :briefcase: 인증된 공인중개사의 답변을 들을 수 있는 상담서비스 플랫폼입니다.
 
 
-### [등대지기 바로가기](https://www.lighthousefriend.com)
+### [등대지기 바로가기](https://www.lighthousefriend.com)     
+
 ---
 
 ## 📜목차     
-1. #### [전체 프로젝트 개발기간](#전체-프로젝트-개발기간)
-2. #### [아키텍쳐](#-아키텍쳐)
-3. #### [기술정보](#-기술정보)
-4. #### [기술적 의사결정](#-기술적-의사결정)
-5. #### [주요 기능](#-주요-기능)
-6. #### [트러블슈팅](#-트러블슈팅)
-7. #### [팀원 소개](#-팀원-소개)
+[1. 전체 프로젝트 개발기간 | Project Period](#-전체-프로젝트-개발기간--project-period)    
+[2. 아키텍쳐](#아키텍쳐)    
+[3. 기술정보](#기술정보)    
+[4. 기술적 의사결정](#기술적-의사결정)    
+[5. 주요 기능](#주요-기능)    
+[6. 트러블슈팅](#트러블슈팅)    
+[7. 팀원 소개](#팀원-소개)   
 
 ---
 
-## :calendar:  전체 프로젝트 개발기간
+## :calendar: 전체 프로젝트 개발기간 | Project Period   
 
-:pushpin: 2022. 11.04 ~ 2022. 12.15     
+:pushpin: 2022. 11.04 ~ 2022. 12.15    
 
 ---
 
-## :nut_and_bolt:  아키텍쳐
+## :nut_and_bolt: 아키텍쳐
 
 ![아키텍쳐](https://user-images.githubusercontent.com/74133113/207537598-b1cbcaa4-0fc3-4950-a62a-dc1c90836c28.png)    
 
 ---
-## :earth_asia:  기술정보
+## :earth_asia: 기술정보
 ![React](https://img.shields.io/badge/react-67DCF7?style=for-the-badge&logo=react&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![Axios](https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
@@ -81,7 +82,7 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 
 ---
 
-## :wrench:  기술적 의사결정
+## :wrench: 기술적 의사결정
 
 |사용기술|기술설명|
 |----|----|
@@ -100,7 +101,7 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 
 ---
 
-## :crossed_swords:  주요 기능      
+## :crossed_swords: 주요 기능      
 * 공인중개사와의 부동산 관련문서 해석 상담 요청 
 * 상담 내용에 있는 주소 정보를 카카오맵 마커로 시각화
 * 의뢰인의 상담 목록 조회 및 검색 기능
@@ -129,7 +130,7 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 
 ----------------------
 
-## :sparkler:  트러블슈팅  
+## :sparkler: 트러블슈팅  
 <details>
     <summary> :heavy_check_mark: 프론트단에서 이미지 압축하여 서버로 전송 </summary>    
        
@@ -155,7 +156,13 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 2.  개선 후    
     - 파일 압축 적용 후 파일용량은 2.5MB ~ 3MB 정도로 압축되었다.     
     - Request 지연시간은 200ms ~ 500ms 로 대폭 감소하였고, Response 지연시간도 2s ~ 3s로 줄어들었다.   
-    ![timeafter](https://user-images.githubusercontent.com/74133113/207632974-3058d570-ba85-4cd6-ad7f-c846f933fd33.jpeg)
+    ![timeafter](https://user-images.githubusercontent.com/74133113/207632974-3058d570-ba85-4cd6-ad7f-c846f933fd33.jpeg)    
+    
+**`남은과제`**    
+    30장을 한꺼번에 보내다보니 여전히 지연시간이 긴 편이라서, 첨부와 동시에 미리 한장씩 서버로 보내고 응답을 받아 미리보기를 구현하면 훨씬 빠르게 될 것 같다.  
+    
+    
+    
 
 </details>
 
@@ -223,7 +230,7 @@ SA : https://docs.google.com/spreadsheets/d/1JBQ1iAl9BINJq8oehd-nAWLhO557RTj0O0C
 
 ----
 
-## :flamingo:  팀원 소개
+## :flamingo: 팀원 소개
 
 |조병민|김성욱|김하나|장경원|조정우|정규재|손하영|
 |----|----|----|----|----|----|----|
